@@ -1,0 +1,171 @@
+/* start media queries */
+/*  Credit to Corey Worrell for fullp page background
+	https://css-tricks.com/perfect-full-page-background-image */
+
+/* even more Extra Small Devices, Phones */
+@media (min-width: 100px) and (max-width: 320px) {
+
+/* content area */
+	#shwtshf-cont{
+	    margin: 20px auto;
+	   	}
+/* end content area */
+}
+
+/* -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+
+/* even more Extra Small Devices, Phones */
+@media (min-width: 321px) and (max-width: 480px) {
+/* background image */
+	#bg {
+		  position: fixed; 
+		  top: -50%; 
+		  left: -50%; 
+		  width: 200%; 
+		  height: 200%;
+		}
+		#bg img {
+		  position: absolute; 
+		  top: 0%; 
+		  left: -27%; 
+		  right: 0; 
+		  bottom: 0; 
+		  margin: auto; 
+		  min-width: 50%;
+		  min-height: 50%;
+		}
+/* end background image */
+
+/* content area */
+	#shwtshf-cont{
+	    margin: 20px auto;
+	   	}
+/* end content area */
+}
+
+/* -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+
+/* Extra Small Devices, Phones */
+@media (min-width: 481px) and (max-width: 767px) {
+/* background image */
+	#bg {
+	  position: fixed; 
+	  top: -50%; 
+	  left: -50%; 
+	  width: 200%; 
+	  height: 200%;
+	}
+	#bg img {
+	  position: absolute; 
+	  top: 0; 
+	  left: -10%; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
+	}
+/* end background image */
+
+/* content area */
+	#shwtshf-cont{
+	    margin: 20px auto auto 20px;
+	   	}
+/* end content area */
+}
+
+/* -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+/* background image */
+	#bg {
+	  position: fixed; 
+	  top: -50%; 
+	  left: -50%; 
+	  width: 200%; 
+	  height: 200%;
+	}
+	#bg img {
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
+	}
+/* end background image */
+
+/* content area */
+	#shwtshf-cont{
+	    margin: 20px auto auto 20px;
+	   	}
+/* end content area */
+}
+
+/* -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+
+/* Medium Devices, Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+/* background image */
+	#bg {
+	  position: fixed; 
+	  top: -50%; 
+	  left: -50%; 
+	  width: 200%; 
+	  height: 200%;
+	}
+	#bg img {
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
+	}
+/* end background image */
+
+/* content area */
+	#shwtshf-cont{
+	    margin: 20px auto auto 20px;
+	   	}
+/* end content area */
+}
+
+/* -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+/* background image */
+	#bg {
+	  position: fixed; 
+	  top: -50%; 
+	  left: -50%; 
+	  width: 200%; 
+	  height: 200%;
+	}
+	#bg img {
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  margin: auto; 
+	  min-width: 50%;
+	  min-height: 50%;
+	}
+/* end background image */
+
+/* content area */
+	#shwtshf-cont{
+	    margin: 20px auto auto 20px;
+	   	}
+/* end content area */
+}
+
+
+/* end media queries */

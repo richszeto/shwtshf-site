@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+p {
+    font-family: Arial, Lucida Grande, Sans-Serif;
+    font-size: 85%;
+	}
+
+figcaption{
+	font-size: 85%;
+	margin-top: 5px;
+}
+
+#shwtshf-cont{
+   	position: relative;
+    z-index: 2;
+    width: 300px;
+    margin: 20px auto auto 20px;
+    padding: 20px;
+    background: #f2f2f2;
+    border:1px solid #929292;
+/*  	-moz-box-shadow: 0 0 20px black;
+    	-webkit-box-shadow: 0 0 20px black;
+   		 box-shadow: 0 0 10px black; */
+	}
+
+#bg { position: fixed; top: 0; left: 0; }
+	.bgwidth { width: 100%; }
+	.bgheight { height: 100%; }
+
+.row{
+	margin-left:1px;
+	}
+
+.row figure{
+	margin:0 1px;
+	}
+
+hr.dashed {
+	border-top: 1px dashed #929292;
+	margin-top: 15px;
+	width:80px;
+	}
+
+.shwtshf-box{
+	border:1px solid blue;
+	background-color: #dddddd;
+	display:block;
+	height:25px;
+	width:25px;
+	}
+
+.shwtshf-pict{
+	border:1px solid blue;
+	background-color: #dddddd;
+	display:block;
+	height:180px;
+	width:260px;
+	margin-left: 0;
+	}
+
+.shwtshf-divide .shwtshf-box{
+	margin:15px auto;
+	}
+
+.connect-block{
+    display: block;
+    margin: auto;
+    width: 50%;
+	}
+
+.copyright{
+	margin-top:20px;
+	}
+}
